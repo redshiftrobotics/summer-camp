@@ -1,0 +1,23 @@
+{
+  "name": "summer-camp",
+  "version": "1.0.0",
+  "description": "2015 SAAS Robotics summer camp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saasrobotics/summer-camp.git"
+  },
+  "author": "",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/saasrobotics/summer-camp/issues"
+  },
+  "homepage": "https://github.com/saasrobotics/summer-camp",
+  "dependencies": {
+    "inquirer": "^0.9.0",
+    "tessel-summer-camp": "^1.0.4"
+  }
+}
