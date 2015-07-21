@@ -17,7 +17,7 @@ var Servo = new Controller.Servo(1, 2, function() {
     Servo.move('left', -30)
   }, 9000)
   setTimeout(function() {
-
+//comment
   Servo.move('left',-25)
   Servo.move('right', 25)
 }, 12000)
