@@ -15,24 +15,24 @@ function initalPrompt (){
       prompt.get(['action'], function(err, result) {
         if(result.action == 'cut the net') {
           console.log("You fall out of the net and break your back and die.")
-        }
-        else if(result.action == 'hang around') {
-          console.log("You starve.")
-        }
-      }
+    //     }
+    //     else if(result.action == 'hang around') {
+    //       console.log("You starve.")
+    //     }
+    //   }
+    // }
+    // else if (result.action == '4') {
+    //   console.log("You go to the house and a family answers the door. The mother gasps. Is your name Josh Jones? she asks.
+    //   What do you anser? yes or no? ")
+    //   prompt.get(['action'], function(err, result){
+    //     else if(result.action == 'yes') {
+    //       console.log("My son! She yells and gives you a big hug. You learn that you had been stolen from them as a very young child. You win!")
+    //     }
+    //     else if (result.action == 'no') {
+    //       console.log("The mother calls the police on you for tresspassing.")
+    //     }
+    //   })
     }
-      else if (result.action =='4') {
-        console.log("You go to the house and a family answers the door. The mother gasps. Is your name Josh Jones? she asks.
-        What do you anser? yes or no? ")
-        prompt.get(['action'], function(err, result){
-          if(result.action == 'yes') {
-            console.log("My son! She yells and gives you a big hug. You learn that you had been stolen from them as a very young child. You win!")
-          }
-           else if (result.action == 'no') {
-             console.log("The mother calls the police on you for tresspassing.")
-           }
-        })
-      }
   })
 
 }
